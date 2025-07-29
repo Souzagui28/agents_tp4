@@ -1,0 +1,60 @@
+master_text_enhancement_task:
+  description: >
+    Compilar os resultados das tarefas anteriores em um relatório final.
+    Os resultados completos estão nos arquivos `revisao_gramatical.txt`,
+    `insights_internos.txt`, e `sugestoes_externas.txt`.
+    Seu trabalho é ler o conteúdo destes três arquivos e criar um único
+    documento markdown consolidado que apresente as informações de forma clara.
+  agent: agente_compilador_final
+  expected_output: >
+    Um único arquivo markdown ('relatorio_final_aprimoramento_texto.md') que
+    combina e formata o conteúdo dos três arquivos de texto gerados anteriormente
+    pela equipe.
+  verbose: true
+  output_file: "output/relatorio_final_aprimoramento_texto.md"
+
+revision_task:
+  description: >
+    Sua principal tarefa é realizar uma revisão gramatical e estilística aprofundada do texto: "{text_input}".
+    Você pode, opcionalmente, usar a ferramenta de busca em textos anteriores para entender o estilo do autor
+    ou a ferramenta de busca na web para validar regras gramaticais complexas.
+  agent: agente_revisor_gramatical
+  expected_output: >
+    Um arquivo de texto com duas seções claras:
+    
+    **1. Texto Revisado:**
+    Uma versão completa e corrigida do `{text_input}`, com melhorias de clareza, gramática e estilo.
+    
+    **2. Sugestões e Justificativas:**
+    Uma lista detalhando as correções mais importantes feitas, explicando o porquê com base em regras gramaticais.
+    O foco principal deve ser a revisão do `{text_input}`, não o conteúdo das ferramentas.
+
+  verbose: true
+  output_file: "output/revisao_gramatical.txt"
+
+internal_insights_task:
+  description: >
+    Analisar o texto: "{text_input}" em relação à base de textos anteriores do usuário
+    (knowledge source) para identificar padrões, temas recorrentes, lacunas ou relações
+    que possam gerar insights valiosos e enriquecer o raciocínio do usuário.
+  agent: agente_de_insights
+  expected_output: >
+    Um relatório conciso em formato de parágrafos. O relatório deve:
+    1. Usar a ferramenta 'UserTextRetrieverTool' para buscar contexto nos textos anteriores.
+    2. Comparar o CONTEÚDO do `{text_input}` com o CONTEXTO retornado pela ferramenta.
+    3. Identificar e descrever claramente 2 ou 3 conexões ou padrões encontrados entre os textos.
+    4. Não inclua o texto dos documentos encontrados no output final, apenas os insights gerados a partir deles.
+  verbose: true
+  output_file: "output/insights_internos.txt"
+
+external_research_task:
+  description: >
+    Realizar pesquisas na web sobre o tema principal do texto: "{text_input}"
+    para encontrar fontes, artigos e conhecimentos relevantes que possam aprofundar
+    o entendimento do usuário sobre o assunto.
+  agent: agente_pesquisador
+  expected_output: >
+    Um arquivo de texto com 'Sugestões de Fontes e Conhecimentos Externos',
+    listando 3 a 5 links relevantes, cada um acompanhado de um breve resumo do conteúdo.
+  verbose: true
+  output_file: "output/sugestoes_externas.txt"
