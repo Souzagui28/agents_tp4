@@ -1,0 +1,16 @@
+Sugestões de Fontes e Conhecimentos Externos
+
+1.  **Time Management Techniques for Personal Productivity - Slack:** ([https://slack.com/blog/collaboration/8-time-management-tips-for-productivity](https://slack.com/blog/collaboration/8-time-management-tips-for-productivity))
+    *   **Resumo:** Este artigo oferece dicas práticas para a gestão do tempo, incluindo o foco, a priorização de tarefas, e o uso de aplicativos de forma eficaz.
+
+2.  **Process Schedulers in Operating System - GeeksforGeeks:** ([https://www.geeksforgeeks.org/operating-systems/process-schedulers-in-operating-system/](https://www.geeksforgeeks.org/operating-systems/process-schedulers-in-operating-system/))
+    *   **Resumo:** Explica os conceitos de escalonamento de processos em sistemas operacionais, incluindo o que são os escalonadores e como eles funcionam para gerenciar a execução de processos.
+
+3.  **A Computer Science Concept that Helps Me Manage Overwhelm - Medium:** ([https://ksm-csed.medium.com/a-computer-science-concept-that-helps-me-manage-overwhelm-0014cb54fd31](https://ksm-csed.medium.com/a-computer-science-concept-that-helps-me-manage-overwhelm-0014cb54fd31))
+    *   **Resumo:** Explora como conceitos de ciência da computação, como "priority heaps", podem ser aplicados para lidar com sobrecarga de tarefas e priorizar eficientemente.
+
+4.  **Applying Computer Science Concepts to Personal Time Management - Quora:** ([https://www.quora.com/How-should-a-computer-science-student-manage-or-divide-his-time-and-energy](https://www.quora.com/How-should-a-computer-science-student-manage-or-divide-his-time-and-energy))
+    *   **Resumo:** Apresenta a ideia de dividir tarefas em objetivos de curto prazo e usar algoritmos de escalonamento baseados em prioridades para gerenciar o tempo e energia.
+
+5.  **Time Management Skills for Developers: Best Tips, Tools, and - Arc.dev** ([https://arc.dev/talent-blog/time-management-skills/](https://arc.dev/talent-blog/time-management-skills/))
+    *   **Resumo:** Oferece dicas sobre como melhorar as habilidades de gerenciamento de tempo, focando em reduzir o estresse e otimizar a rotina de trabalho.
