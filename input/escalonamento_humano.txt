@@ -1,0 +1,11 @@
+problema: ineficiência nas tarefas do dia a dia, nas tarefas acadêmicas e na tomada de algumas decisões.
+
+raciocínio: o escalonamento de processos na computação serve para aplicação pessoal. Analisando como está o meu algoritmo de escalonamento, eu percebi que é O(n) para O(n²), porque geralmente penso em todas as tarefas que tenho que fazer no dia, reflito, às vezes me distraio, demoro, e às vezes nem consigo fazer de tanto demorar. Eu conheço várias pessoas que fazem em O(1) porque só pensam que tem que fazer e fazem aparentemente. Eu gostaria de ser mais eficiente mas de forma inteligente, sem ter erros por “falta de pensamento” ou falta de etapas ou pontos importantes. 
+
+Pensei em algumas formas de aplicar escalonamento de forma pessoal, mas é importante lembrar que a metodologia de motivação é importante, assim como estar bem, para conseguir fazer uso da cpu pessoal, ela não é de graça ou é uma máquina:
+
+1. Não é preciso anotar as tarefas mais simples do dia a dia, porque não tem motivo em elas serem O(n) ou O(n²).
+2. Tempo de resposta em tarefas grandes pode ser importante, porque permite estimar melhor o verdadeiro tamanho do processo. Então um round robin pode salvar processos muito importantes, como saúde, relatório técnico parcial, e pode melhorar a execução em processos que se achava que o tamanho não era grande, como estudo para a prova, trabalho ou atividade da faculdade. 
+3. O próprio processo afeta a modelagem de comportamento e pode afetar o sistema de escalonamento. O escalonamento é afetado por emoção e motivação, lembrança, foco atencional, hábito, estado pessoal, condição ou situação. A escolha dos processos é importante para a saúde do próprio escalonador, pode alterar várias coisas e pode influenciar através dos neurônios-espelho. A metodologia de motivação e a de modelo de processo ajudam a iniciar e a executar processos com vários benefícios, como assegurar o cumprimento dos objetivos e também ajudar na consistência.
+4. O processo atual é apontado pelo program counter (o foco atencional no instante atual)
+5. A dinâmica de atenção, objetos de atenção e imposição emocional influenciam.
